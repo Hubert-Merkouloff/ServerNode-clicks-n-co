@@ -7,6 +7,8 @@ const jsonwebtoken = require('jsonwebtoken');
 // recipes data
 const recipes = require('./list.json');
 const listrandomrestaurant = require ('./listrandomrestaurant.json');
+const listshopLille = require ('./listrandomrestaurantLille.json');
+
 
 // vars
 const app = express();
@@ -83,6 +85,14 @@ app.get('/listrandomrestaurant', (req, res) => {
   console.log('>> GET /restaurant');
   res.json(listrandomrestaurant);
 });
+
+
+// Liste des shop Lille: GET /recipes
+app.get('/search/lille', (req, res) => {
+  console.log('>> GET /shop lille');
+  res.json(listshopLille);
+});
+
 
 
 // Login : POST /login
