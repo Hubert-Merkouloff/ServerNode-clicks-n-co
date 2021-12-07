@@ -113,6 +113,19 @@ app.post('/login', (req, res) => {
   }
 });
 
+app.post("/register", (req, res) => {
+  console.log(req.body);
+  const { name, email, password, confirmPassword } = req.body;
+
+  if (password.length < 3 || password.length > 60) {
+    return res.status(400).json({
+      errorMessage:
+        "Le mot de passe doit être compris entre 3 et 60 caractéres",
+    });
+  }
+  return res.status(201).send("user create");
+});
+
 // Favorites recipes : GET /favorites
 app.get('/favorites', authorizationMiddleware, (req, res) => {
   console.log('>> GET /favorites', req.user);
