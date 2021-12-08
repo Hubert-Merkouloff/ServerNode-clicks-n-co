@@ -4,9 +4,8 @@
     "name": "boucherie de la place",
     "picture": "https://image.freepik.com/photos-gratuite/  fraises-fraiches-table-bois_1150-8055.jpg",
     "avatar":"",
-    "address": "1 rue de la place Lille",
-    "city":"Lille",
-    "name_slug":"boucherie-la-place"
+    "address": "1 rue de la place Nantes",
+    "city":"Nantes"
     
 
 },
@@ -15,9 +14,8 @@
     "name": "boulangerie de l'espace de l'api",
     "picture": "https://image.freepik.com/photos-gratuite/fraises-fraiches-table-bois_1150-8055.jpg",
     "avatar": "", 
-    "address": "14 allée de l'espace lille",
-    "city":"Lille",
-    "name_slug":"boulangerie-de-espace"
+    "address": "14 allée de l'espace Nantes",
+    "city":"Nantes"   
        
 
 },
@@ -26,9 +24,8 @@
     "name": "Au palais des fleurs",
     "picture": "https://image.freepik.com/photos-gratuite/fraises-fraiches-table-bois_1150-8055.jpg",
     "avatar": "", 
-    "address": "1 rue de la paix lille",
-    "city":"Lille",
-    "name_slug":"palais-fleurs"
+    "address": "1 rue de la paix Nantes",
+    "city":"Nantes"       
 
 },
 {
@@ -36,18 +33,9 @@
     "name": "Les fruits de Luigi",
     "picture": "https://image.freepik.com/photos-gratuite/fraises-fraiches-table-bois_1150-8055.jpg",
     "avatar": "", 
-    "address": "5 avenue luxembourg lille",
-    "city":"Lille",
-    "name_slug":"fruits-luigi"
+    "address": "5 avenue luxembourg Nantes",
+    "city":"Nantes"       
 
-},
-{
-    "code_shop":5,
-    "name": "Les poissons du marché",
-    "picture": "https://image.freepik.com/photos-gratuite/fraises-fraiches-table-bois_1150-8055.jpg",
-    "avatar": "", 
-    "address": "22 quartier de l'écume",
-    "city":"Lille",
-    "name_slug":"poissons-marche"    
 }
+
 ]
