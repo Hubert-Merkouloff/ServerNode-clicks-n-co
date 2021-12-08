@@ -82,7 +82,7 @@ app.get('/recipes', (req, res) => {
 });
 
 // Liste des restaurants : GET /recipes
-app.get("/shops/home`", (req, res) => {
+app.get('/shops/home', (req, res) => {
   console.log(">> GET /restaurant");
   res.json(listrandomrestaurant);
 });
