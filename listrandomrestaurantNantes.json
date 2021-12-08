@@ -1,6 +1,6 @@
 [
   {
-    "code_shop":1,
+    "id":1,
     "name": "boucherie de la place",
     "picture": "https://image.freepik.com/photos-gratuite/  fraises-fraiches-table-bois_1150-8055.jpg",
     "avatar":"",
@@ -10,7 +10,7 @@
 
 },
 {
-    "code_shop":2,
+    "id":2,
     "name": "boulangerie de l'espace de l'api",
     "picture": "https://image.freepik.com/photos-gratuite/fraises-fraiches-table-bois_1150-8055.jpg",
     "avatar": "", 
@@ -20,7 +20,7 @@
 
 },
 {
-    "code_shop":3,
+    "id":3,
     "name": "Au palais des fleurs",
     "picture": "https://image.freepik.com/photos-gratuite/fraises-fraiches-table-bois_1150-8055.jpg",
     "avatar": "", 
@@ -29,7 +29,7 @@
 
 },
 {
-    "code_shop":4,
+    "id":4,
     "name": "Les fruits de Luigi",
     "picture": "https://image.freepik.com/photos-gratuite/fraises-fraiches-table-bois_1150-8055.jpg",
     "avatar": "", 

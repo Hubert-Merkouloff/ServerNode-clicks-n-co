@@ -10,6 +10,8 @@ const listrandomrestaurant = require ('./listrandomrestaurant.json');
 const listshopLille = require ('./listrandomrestaurantLille.json');
 const listshopNantes = require ('./listrandomrestaurantNantes.json');
 
+const listshopItems1 = require ('./listshopItems1.json')
+const listshopItems2 = require ('./listshopItems2.json')
 
 // vars
 const app = express();
@@ -82,7 +84,7 @@ app.get('/recipes', (req, res) => {
 });
 
 // Liste des restaurants : GET /recipes
-app.get("/shops/home`", (req, res) => {
+app.get('/shops/home', (req, res) => {
   console.log(">> GET /restaurant");
   res.json(listrandomrestaurant);
 });
@@ -100,6 +102,18 @@ app.get('/search/nantes', (req, res) => {
   res.json(listshopNantes);
 });
 
+
+// Liste des items du shop 1 GET /recipes
+app.get('/shops/1', (req, res) => {
+  console.log('>> GET /shop nantes');
+  res.json(listshopItems1);
+});
+
+// Liste des items du shop 1 GET /recipes
+app.get('/shops/2', (req, res) => {
+  console.log('>> GET /shop nantes');
+  res.json(listshopItems2);
+});
 
 // Login : POST /login
 app.post('/login', (req, res) => {

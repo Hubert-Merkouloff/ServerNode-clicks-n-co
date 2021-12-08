@@ -1,0 +1,36 @@
+    {
+        "id": 1,
+        "name": "la boucherie de la place",
+        "description": "Minima.",
+        "picture": "https://image.freepik.com/photos-gratuite/  fraises-fraiches-table-bois_1150-8055.jpg",
+        "address": "24 rue de nostrum",
+        "zip_code": "70120",
+        "city": "Lelievre-sur-Mer",
+        "city_slug": "Marseille",
+        "email": "john@gmail.com",
+        "phone_number": "06 78 51 42 52",
+        "opening_hours": "Ouvert du lundi au vendredi de 9h à 17h",
+        "products": [
+            {
+             "id":1,
+             "name":"tomate",
+             "prix": "1,5€"
+            },
+            {
+                "id":2,
+                "name":"carotte",
+                "prix":"5€"
+            }
+
+         ],
+        "categories": [
+        {
+        "name": "primeur",
+        "picture": "category3.png"
+        }
+        ],
+        "user": {
+        "id": 1,
+        "avatar": "https://via.placeholder.com/180x180.png/003377?text=Avatar+neque"
+        }
+    }
